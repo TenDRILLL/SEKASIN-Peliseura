@@ -4,7 +4,9 @@
   "description": "SEKASIN-Gaming serverin peliseurabotti",
   "main": "build/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc --build",
+    "start": "npm run build && cd build && node index.js",
+    "update": "npm run build && cd build && node updateCommands.js"
   },
   "repository": {
     "type": "git",
@@ -19,6 +21,7 @@
   "dependencies": {
     "@types/node": "^18.11.18",
     "discord-http-interactions": "^1.4.8",
+    "dotenv": "^16.0.3",
     "typescript": "^4.9.4"
   }
 }

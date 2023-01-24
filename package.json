@@ -1,0 +1,24 @@
+{
+  "name": "sekasin-peliseura",
+  "version": "1.0.0",
+  "description": "SEKASIN-Gaming serverin peliseurabotti",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TenDRILLL/SEKASIN-Peliseura.git"
+  },
+  "author": "Ten#0010",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/TenDRILLL/SEKASIN-Peliseura/issues"
+  },
+  "homepage": "https://github.com/TenDRILLL/SEKASIN-Peliseura#readme",
+  "dependencies": {
+    "@types/node": "^18.11.18",
+    "discord-http-interactions": "^1.4.8",
+    "typescript": "^4.9.4"
+  }
+}
